@@ -2,4 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+<<<<<<< HEAD
+=======
+    <color name="purple_500">#6200EE</color>
+    <color name="eastern_blue">#0077B6</color>
+    <color name="dingley">#6D6A36</color>
+
+
+>>>>>>> 9c74eee (Initial commit)
 </resources>

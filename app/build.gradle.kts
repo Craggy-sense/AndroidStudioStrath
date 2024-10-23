@@ -4,11 +4,19 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.example.hellotoast"
     compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.hellotoast"
+=======
+    namespace = "com.example.sendingdataapp"
+    compileSdk = 34
+
+    defaultConfig {
+        applicationId = "com.example.sendingdataapp"
+>>>>>>> 9c74eee (Initial commit)
         minSdk = 24
         targetSdk = 34
         versionCode = 1

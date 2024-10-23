@@ -19,6 +19,11 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "Hello Toast"
 include(":app")
  
+=======
+rootProject.name = "SendingDataApp"
+include(":app")
+>>>>>>> 9c74eee (Initial commit)

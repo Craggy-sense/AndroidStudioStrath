@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Hello Toast</string>
+=======
+    <string name="app_name">SendingDataApp</string>
+>>>>>>> 9c74eee (Initial commit)
 </resources>

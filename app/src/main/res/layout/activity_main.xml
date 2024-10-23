@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -57,3 +58,39 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+=======
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TextView to display replies from SecondActivity -->
+    <TextView
+        android:id="@+id/repliedMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No replies yet"
+        android:padding="8dp"
+        android:textSize="16sp" />
+
+    <!-- EditText to send a message to SecondActivity -->
+    <EditText
+        android:id="@+id/editTextMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter message to send"
+        android:padding="8dp" />
+
+    <!-- Button to submit message to SecondActivity -->
+    <Button
+        android:id="@+id/main_send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/eastern_blue"
+        android:text="Send"
+        android:textColor="@android:color/white"
+        android:padding="12dp" />
+</LinearLayout>
+>>>>>>> 9c74eee (Initial commit)
